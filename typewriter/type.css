@@ -1,0 +1,30 @@
+.typewriter {
+    overflow: hidden;
+    white-space: wrap;
+    border-right: 0.15em solid #000;
+    margin-bottom: 10px;
+    animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #000;
+    }
+  }
+  
+
+  .typewriter-container{
+    width: 200px;
+  }

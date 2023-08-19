@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="type.css">
+  <script>
+    function generateText() {
+      const container = document.querySelector(".typewriter-container");
+      const newText = document.createElement("p");
+      newText.className = "typewriter";
+      newText.textContent = "New text that will appear with typewriter effect.";
+      container.appendChild(newText);
+    }
+  </script>
+</head>
+<body>
+  <button onclick="generateText()">Generate Text</button>
+  <div class="typewriter-container">
+    <!-- New text elements will be added here -->
+    hellow world
+  </div>
+</body>
+</html>
